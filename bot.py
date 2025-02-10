@@ -25,9 +25,9 @@ name ="""
 class Bot(Client):
     def __init__(self):
         super().__init__(
-            name="Bot",
-            api_hash=API_HASH,
-            api_id=APP_ID,
+            name="@Crnhub_bot",
+            api_hash=mongodb+srv://naveshrathorw:G4rdR6E6ctRFgmJS@cluster0.gzl8h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 ,
+            api_id=21582765,
             plugins={
                 "root": "plugins"
             },
